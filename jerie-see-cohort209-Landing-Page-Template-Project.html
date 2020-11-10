@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="siteAssets/favicon-16x16.png" />
+   
+    
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">  
@@ -14,7 +16,8 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />  
+    <script src="https://kit.fontawesome.com/57e9b76792.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css"/>
 
     <title>Landing Page Template Project</title>
@@ -67,7 +70,7 @@
   <table class="table table-borderless">
     <thead>
       <tr>
-        <th scope="col">#</th>
+        <th scope="col"></th>
         <th scope="col">Original Trombones</th>
         <th scope="col">Features</th>
         <th scope="col">How It Works</th>
@@ -76,15 +79,45 @@
     </thead>
   </table>
 
-  <h4>Handcrafted, home-made masterpieces</h4> <br/>
-  <label>Enter your email address <input type="text" name="email"/></label> <br/>
-  <button type="button" class="btn btn-warning">Get Started</button>
+  <div class="text-center">
+  <h4>Handcrafted, home-made masterpieces</h4> <br />
   
+    <label><input type="text" placeholder="Enter your email address" name="email" /></label> <br />
+    <button type="button" class="btn btn-warning">Get Started</button>
+  </div>
 
-  <h4>Premium Materials</h4>
-  <h4>Free Shipping</h4>
-  <h4>Quality Assurance</h4>
 
+
+  <div class="container">
+    <div class="row">
+        <ul><i class="fas fa-fire fa-5x"></i></ul>
+        <ul>
+            <h4>Premium Materials</h4>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                purchase.</p>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <ul><i class="fas fa-truck fa-3x"></i></ul>
+        <ul>
+            <h4>Free Shipping</h4>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                returns if you are not satisfied.</p>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <ul><i class="fas fa-battery-full fa-3x"></i></ul>
+        <ul>
+            <h4>Quality Assurance</h4>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                pitch of your instrument.</p>
+        </ul>
+    </div>
+</div>
 
        <div class="container">
           <div class="row">
@@ -137,13 +170,17 @@
       </div>
 </div>
 
+<footer>
+  <ul>
+      privacy
+      terms
+      contacts
+  </ul>
+  
 
+  <p></br>copyright 2016, Original Trombones</p>
 
-
-
-
-
-
+</footer>
 
 
 </body>
